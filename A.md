@@ -28,3 +28,6 @@ Lấy hai dòng namespace rồi thay vào mục Quản lý DNS và bản ghi ở
 
 Chờ đợi quá trình cập nhật DNS (từ 15 phút đến vài tiếng). 
 <img width="3070" height="1750" alt="image" src="https://github.com/user-attachments/assets/ff9e7394-e4b6-47e5-a515-0a49e79a410b" />
+
+Cập nhật thành công !!
+<img width="3065" height="1746" alt="image" src="https://github.com/user-attachments/assets/da8037d3-b3e7-4c52-a433-3a463d6bc52f" />
