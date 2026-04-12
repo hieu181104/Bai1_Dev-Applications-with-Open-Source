@@ -3,7 +3,35 @@
 Tải file ISO: truy cập trang `ubuntu.com/download/server` để tải file .iso của Ubuntu 24.04.4 LTS
 
 Công cụ giả lập: VMWare
-
+### Tạo máy ảo
+- Mở VMware, chọn Create a New Virtual Machine.
+- Chọn nguồn cài đặt: * Chọn dòng Installer disc image file (iso).
+- Nhấn Browse và tìm đến file ISO Ubuntu Server vừa tải về.
+- Đặt tên và lưu trữ:
+  - Virtual machine name: Đặt tên cho máy ảo (VD: Ubuntu_Server).
+  - Location: Chọn nơi lưu trữ ổ cứng ảo (nên chọn ổ đĩa còn trống ít nhất 20-30GB).
+- Cấu hình ổ cứng (Disk Capacity):
+  - Maximum disk size: Tối thiểu 20GB.
+  - Chọn Split virtual disk into multiple files để dễ dàng di chuyển máy ảo sau này.
+- Tùy chỉnh phần cứng (Customize Hardware):
+  - Memory (RAM): Tối thiểu 1GB, nhưng nên để 2GB (2048MB) để chạy mượt mà.
+  - Processors: Chọn 1 hoặc 2 nhân tùy vào cấu hình máy thật của bạn.
+- Nhấn Finish để hoàn tất việc tạo khung máy ảo.
+### Cài đặt Ubuntu
+Sau khi nhấn Power on this virtual machine, màn hình cài đặt của Ubuntu sẽ hiện ra. Thực hiện các bước sau:
+- Language: Chọn English.
+- Keyboard Configuration: Chọn English (US).
+- Choose type of install: Chọn Ubuntu Server (bản mặc định).
+- Networking: Trình cài đặt sẽ tự nhận IP từ VMware qua DHCP. Nhấn Done.
+- Storage Configuration: Chọn Use an entire disk.
+- Profile Setup:
+  - Your name: Hieu
+  - Your server's name: hieuserver.
+  - Pick a username: nguyentrunghieu
+  - Password: (Đặt mật khẩu cho user).
+- SSH Setup: Tích chọn Install OpenSSH server.
+- Hệ thống sẽ bắt đầu cài đặt. Sau khi hoàn tất chọn Reboot Now.
+<img width="1281" height="793" alt="image" src="https://github.com/user-attachments/assets/b6a5bc8e-5e94-4824-9451-27f9153b19d5" />
 
 ### Cấu hình mạng trong Ubuntu và VMWare để cho phép truy cập SSH vào Ubuntu từ CMD của Windows.
 
