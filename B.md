@@ -33,12 +33,30 @@ Sau khi nhấn Power on this virtual machine, màn hình cài đặt của Ubunt
 - Hệ thống sẽ bắt đầu cài đặt. Sau khi hoàn tất chọn Reboot Now.
 <img width="1281" height="793" alt="image" src="https://github.com/user-attachments/assets/b6a5bc8e-5e94-4824-9451-27f9153b19d5" />
 
-### Cấu hình mạng trong Ubuntu và VMWare để cho phép truy cập SSH vào Ubuntu từ CMD của Windows.
 Sau khi hoàn thành cài đặt, đăng nhập với username và password vừa tạo.
-
 <img width="1297" height="814" alt="image" src="https://github.com/user-attachments/assets/95ffd4ba-04e4-42f7-b3ed-b9ba0523a411" />
 
 Màn hình đăng nhập thành công!
+### Cấu hình mạng trong Ubuntu và VMWare để cho phép truy cập SSH vào Ubuntu từ CMD của Windows.
+#### Khởi động dịch vụ SSH: 
+Thực hiện lần lượt:
+
+`sudo systemctl start ssh`
+
+`sudo systemctl enable ssh`
+
+`sudo systemctl status ssh`
+
+<img width="899" height="421" alt="image" src="https://github.com/user-attachments/assets/9e79bd61-142c-42bc-97e7-3c81302542f7" />
+
+#### Kiểm tra địa chỉ ip ubuntu: `ip -4 addr`
+<img width="850" height="159" alt="Screenshot 2026-04-12 231150" src="https://github.com/user-attachments/assets/5f77be0d-8253-49f1-8ee7-3bff34695556" />
+
+#### Kiểm tra SSH từ Windows
+Mở cmd từ Windows, gõ lệnh : `ssh nguyentrunghieu@192.168.164.129`
+<img width="2346" height="1223" alt="image" src="https://github.com/user-attachments/assets/f3a52839-a8ef-4875-8327-763d87671a4b" />
+
+Hệ thống sẽ yêu cầu nhập password (không hiển thị). Nếu thành công sẽ ubuntu hiển thị chào mừng.
 
 ## 2. Tìm hiểu các lệnh cơ bản của Ubuntu
 - Liệt kê các file trong thư mục: `ls`
