@@ -34,7 +34,11 @@ Sau khi nhấn Power on this virtual machine, màn hình cài đặt của Ubunt
 <img width="1281" height="793" alt="image" src="https://github.com/user-attachments/assets/b6a5bc8e-5e94-4824-9451-27f9153b19d5" />
 
 ### Cấu hình mạng trong Ubuntu và VMWare để cho phép truy cập SSH vào Ubuntu từ CMD của Windows.
+Sau khi hoàn thành cài đặt, đăng nhập với username và password vừa tạo.
 
+<img width="1297" height="814" alt="image" src="https://github.com/user-attachments/assets/95ffd4ba-04e4-42f7-b3ed-b9ba0523a411" />
+
+Màn hình đăng nhập thành công!
 
 ## 2. Tìm hiểu các lệnh cơ bản của Ubuntu
 - Liệt kê các file trong thư mục: `ls`
