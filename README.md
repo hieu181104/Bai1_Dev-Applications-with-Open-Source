@@ -8,13 +8,13 @@ Deadline: 23:59/13/4/2026
 https://github.com/hieu181104/Bai1_Dev-Applications-with-Open-Source/blob/main/A.md
 
 ### FILE B.md
-
+https://github.com/hieu181104/Bai1_Dev-Applications-with-Open-Source/blob/main/B.md
 
 ### FILE C.md
 
 
 ### FILE D.md
-
+(BONUS) - Chưa thực hiện
 
 ### FILE E.md
 
