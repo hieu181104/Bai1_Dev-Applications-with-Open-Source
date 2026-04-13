@@ -7,10 +7,28 @@ Kiểm tra nhanh: `docker compose ps` giúp biết container nào đang chạy.
 Nếu có container nào bị restarting cần xem log để tìm lỗi.
 
 Các lệnh xem log từng service:
-# Xem log nginx
+- Xem log nginx
+
 ```docker logs mynginx```
 
-# Xem log Nodered
+- Xem log Nodered
+
 ```docker logs mynodered```
 
-## 2. 
+## 2. Giới hạn resource cho một service (tránh việc một service chiếm quá nhiều RAM)
+Thêm giới hạn RAM cho nodered trong docker-compose.yml:
+
+```
+  mynodered:
+    ...
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+```
+
+Theo dõi lượng RAM sử dụng: 
+```
+docker compose stats
+```
+<img width="2347" height="322" alt="image" src="https://github.com/user-attachments/assets/11354335-3d79-428f-8b56-166ec359a0a0" />
