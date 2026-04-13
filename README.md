@@ -11,10 +11,10 @@ https://github.com/hieu181104/Bai1_Dev-Applications-with-Open-Source/blob/main/A
 https://github.com/hieu181104/Bai1_Dev-Applications-with-Open-Source/blob/main/B.md
 
 ### FILE C.md
-
+https://github.com/hieu181104/Bai1_Dev-Applications-with-Open-Source/blob/main/C.md
 
 ### FILE D.md
-(BONUS) - Chưa thực hiện
+(BONUS) 
 
 ### FILE E.md
 
