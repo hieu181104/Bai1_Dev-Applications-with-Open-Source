@@ -85,3 +85,8 @@ Xuất hiện dòng Registered tunnel connection là OK.
 Trang web : `https://nguyentrunghiieu.id.vn`
 
 <img width="3070" height="1738" alt="image" src="https://github.com/user-attachments/assets/f5489844-1a7e-4e95-b087-0fffb2834c3d" />
+
+Trang nodered: `https://nguyentrunghiieu.id.vn/nodedred/`
+<img width="3067" height="1746" alt="image" src="https://github.com/user-attachments/assets/573677d4-43d5-40fb-ad41-986b2f4a9156" />
+
+<img width="3069" height="1741" alt="image" src="https://github.com/user-attachments/assets/64713077-01e3-4491-b549-04bcdd6b191e" />
