@@ -24,3 +24,5 @@ https://github.com/hieu181104/Bai1_Dev-Applications-with-Open-Source/blob/main/F
 
 ### FILE G.md
 https://github.com/hieu181104/Bai1_Dev-Applications-with-Open-Source/blob/main/G.md
+
+### FILE G(2).md
