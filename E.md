@@ -65,6 +65,12 @@ Nhập địa chỉ:
 
 <img width="3071" height="1744" alt="image" src="https://github.com/user-attachments/assets/ec8c17c6-525d-448d-a5b3-72b1cd2f1d6e" />
 
-Kết quả hiển thị thành công các thông tin cá nhân.
+Kết quả hiển thị thành công các thông tin cá nhân dưới dạng json.
 
-#### 
+## 5. Sửa file index.html
+Chạy lệnh để thực hiện sửa đổi file
+```
+cd ~/myapp
+nano myweb/index.html
+```
+
