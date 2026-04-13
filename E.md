@@ -61,9 +61,9 @@ return msg;
 #### Test API Nodered
 Nhập địa chỉ: 
 
-```192.168.164.129:1880/api/student-info```
+```192.168.164.129:1880/student-info```
 
-<img width="3071" height="1744" alt="image" src="https://github.com/user-attachments/assets/ec8c17c6-525d-448d-a5b3-72b1cd2f1d6e" />
+<img width="3071" height="1746" alt="image" src="https://github.com/user-attachments/assets/d475bc8f-1013-46e7-96a0-2638cfb36adb" />
 
 Kết quả hiển thị thành công các thông tin cá nhân dưới dạng json.
 
@@ -79,6 +79,9 @@ Sửa:
         }
 ```
 <img width="2329" height="348" alt="image" src="https://github.com/user-attachments/assets/90bc8bc3-b947-408e-8a0f-a28a63c07d81" />
+
+Test qua proxy:
+<img width="3071" height="1735" alt="image" src="https://github.com/user-attachments/assets/96737232-796a-4c49-bfd9-9432f0446add" />
 
 ## 5. Sửa file index.html
 Chạy lệnh để thực hiện sửa đổi file
