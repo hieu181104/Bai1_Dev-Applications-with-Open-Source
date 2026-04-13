@@ -236,3 +236,8 @@ Reload nginx:
 ```docker compose exec mynginx nginx -s reload```
 
 ## 6. Kiểm tra trang web
+Nhập đường dẫn `http://192.168.164.129`
+
+<img width="3071" height="1749" alt="image" src="https://github.com/user-attachments/assets/1b2160ce-a3a2-4891-b99f-571fc520e2aa" />
+
+Như vậy trang web đã hiển thị thành công.
