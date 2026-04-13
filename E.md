@@ -182,7 +182,7 @@ Nội dung file:
         // JS tự động gọi API khi tải trang
         document.addEventListener("DOMContentLoaded", function() {
             // Đường dẫn proxy Nginx đã cấu hình
-            fetch('/student-info')
+            fetch('/nodered/student-info')
                 .then(response => {
                     if (!response.ok) {
                         throw new Error('Mạng bị lỗi, không kết nối được API!');
