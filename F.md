@@ -31,4 +31,5 @@ Theo dõi lượng RAM sử dụng:
 ```
 docker compose stats
 ```
-<img width="2347" height="322" alt="image" src="https://github.com/user-attachments/assets/11354335-3d79-428f-8b56-166ec359a0a0" />
+
+<img width="2347" height="322" alt="Screenshot 2026-04-13 155606" src="https://github.com/user-attachments/assets/f629820a-f315-409c-98ed-5ead96c29083" />
