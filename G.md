@@ -16,7 +16,7 @@ Bước 4: Cloudflare hiển thị lệnh docker run ... có chứa token. Sao c
 
 Tạo file .env để lưu token:
 ```
-cd nodered
+cd myapp
 nano .env
 ```
 
