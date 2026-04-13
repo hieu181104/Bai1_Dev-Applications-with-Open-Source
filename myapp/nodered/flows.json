@@ -1,0 +1,59 @@
+[
+    {
+        "id": "14484e38f90afe32",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "9b5a43a8dafcfc28",
+        "type": "function",
+        "z": "14484e38f90afe32",
+        "name": "function",
+        "func": "// Tạo một object chứa toàn bộ thông tin cá nhân\nvar information = {\n    sinhvien: \"Nguyễn Trung Hiếu\",\n    mssv: \"K225480106019\",\n    lop: \"K58KTPM\",\n    chuyennganh: \"Công nghệ phần mềm\",\n    monhoc: \"Phát triển ứng dụng với mã nguồn mở\",\n    domain: \"nguyentrunghiieu.id.vn\"\n};\n\n// Đưa object này vào msg.payload để trả về\nmsg.payload = information;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 200,
+        "wires": [
+            [
+                "05710f129123fc23"
+            ]
+        ]
+    },
+    {
+        "id": "47b5172973fea252",
+        "type": "http in",
+        "z": "14484e38f90afe32",
+        "name": "http in",
+        "url": "/student-info",
+        "method": "get",
+        "upload": false,
+        "skipBodyParsing": false,
+        "swaggerDoc": "",
+        "x": 170,
+        "y": 200,
+        "wires": [
+            [
+                "9b5a43a8dafcfc28"
+            ]
+        ]
+    },
+    {
+        "id": "05710f129123fc23",
+        "type": "http response",
+        "z": "14484e38f90afe32",
+        "name": "http response",
+        "statusCode": "200",
+        "headers": {},
+        "x": 700,
+        "y": 200,
+        "wires": []
+    }
+]
