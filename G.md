@@ -20,7 +20,7 @@ cd nodered
 nano .env
 ```
 
-<img width="2347" height="215" alt="image" src="https://github.com/user-attachments/assets/37c7d6e3-061d-4b95-908d-5bbe2f81d5f0" />
+<img width="2343" height="284" alt="image" src="https://github.com/user-attachments/assets/66e590f9-4853-4d18-be4a-80dbc8df1243" />
 
 Tạo file .gitignore:
 
@@ -46,3 +46,7 @@ docker compose up -d
 
 <img width="2326" height="477" alt="image" src="https://github.com/user-attachments/assets/dc1dd244-06d0-4d1f-b92e-5f07cd3580fe" />
 
+Kiểm tra kết nối:
+<img width="3060" height="1739" alt="image" src="https://github.com/user-attachments/assets/3e97759b-8f76-4ec9-8924-5be1f72fb648" />
+
+## 4. Public ứng dụng
